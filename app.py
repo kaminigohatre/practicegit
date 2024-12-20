@@ -1,4 +1,4 @@
-import boto4
+import boto7
 
 client = boto3.client('ec2')
 response = client.run_instances(
